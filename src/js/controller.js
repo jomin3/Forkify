@@ -98,6 +98,7 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err);
   }
 };
+
 const init = function () {
   bookmarkView.render(model.state.bookmarks);
 
